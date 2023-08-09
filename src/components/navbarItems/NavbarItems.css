@@ -1,0 +1,28 @@
+/* Styles for nav items */
+.nav-items {
+  display: flex;
+  margin-top: 10px;
+  position: relative;
+  left: 40px;
+}
+
+.nav-item {
+  margin-left: 30px;
+  list-style: none;
+}
+
+.nav-item a {
+  color: #274c5b;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  cursor: pointer;
+  transition: 0.3s all ease 0s;
+}
+
+.nav-item a:hover {
+  color: #555;
+}
